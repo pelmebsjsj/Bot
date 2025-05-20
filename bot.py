@@ -4,7 +4,7 @@ from PIL import Image
 from telegram import Update
 from telegram.ext import ApplicationBuilder, MessageHandler, filters, ContextTypes
 
-TOKEN = os.environ["7793261549:AAFxPRinGqH1I4juS2yosDNnKX9dUlXfMJQ"]  # Токен брать из переменных окружения!
+TOKEN = os.environ["BOT_TOKEN"]  # Токен брать из переменных окружения!
 
 OVERLAY_PATH = "overlay.png"  # Имя файла с оверлеем
 
