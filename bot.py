@@ -1,4 +1,4 @@
- import os
+import os
 from io import BytesIO
 from PIL import Image
 from telegram import Update
